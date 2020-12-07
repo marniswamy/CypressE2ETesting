@@ -1,0 +1,15 @@
+{
+  "name": "cypress-e2e-testing",
+  "version": "1.0.0",
+  "description": "Cypress ene testing for web app",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/marniswamy/CypressE2ETesting.git",
+  "author": "Marni Ayyappa Swamy <ayyappa.marni@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.0.1"
+  }
+}

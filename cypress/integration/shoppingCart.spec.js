@@ -3,17 +3,17 @@ describe('E2E Test for shopping cart app', () => {
         cy.visit('https://marni-shopping-cart.netlify.app/')
         // Find the link to login to app'
         cy.contains('here').click();
-        // Find the link to login to app'
+        // Add any item to the cart
         cy.contains('Add to Cart').click();
-        // Find the link to login to app'
+        // After adding item clicking on checkout
         cy.contains('Checkout').click();
-        // Find the link to login to app'
+        // Add few more items in checkout page
         cy.contains('1').click();
-        // Find the link to login to app'
+        // Add few more items in checkout page
         cy.contains('1').click();
-        // Find the link to login to app'
+        // Place order after adding items
         cy.contains('Place Order').click();
-        // Find the link to login to app'
+        // After placing order confirm and redirect to dashboard
         cy.contains('Place order').click();
     })
 })
